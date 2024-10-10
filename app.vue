@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
-
 const card = ref<HTMLElement | null>(null);
 const showToast = ref(false);
 
