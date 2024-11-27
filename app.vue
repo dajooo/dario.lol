@@ -57,8 +57,7 @@ async function copyDiscordHandle() {
           Hey, I'm Dario! 👋
         </h1>
         <p class="text-xl text-zinc-400 mb-6">
-          Software developer passionate about crafting elegant solutions with
-          Vue.js, Nuxt, and Kotlin.
+          Software developer passionate about crafting elegant solutions with Vue.js/Nuxt and Go.
         </p>
         <div class="space-y-4">
           <div class="flex items-center">
@@ -67,7 +66,11 @@ async function copyDiscordHandle() {
           </div>
           <div class="flex items-center">
             <Icon name="ph:code-simple" class="h-6 w-6 text-indigo-500 mr-2" />
-            <span class="text-zinc-300">Kotlin aficionado</span>
+            <span class="text-zinc-300">Kotlin fanboy</span>
+          </div>
+          <div class="flex items-center">
+            <Icon name="ph:code-simple" class="h-6 w-6 text-indigo-500 mr-2" />
+            <span class="text-zinc-300">Go + react newbie</span>
           </div>
         </div>
         <div class="mt-8 flex space-x-4">
