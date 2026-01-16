@@ -1,9 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
+  modules: ['@unocss/nuxt', '@nuxt/icon', '@nuxt/eslint'],
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', '@nuxt/icon'],
-  css: ['@unocss/reset/tailwind.css'],
   app: {
     head: {
       link: [
@@ -13,6 +11,15 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apply-touch-icon.png' },
         { rel: 'manifest', href: './site.webmanifest' },
       ],
+    },
+  },
+  compatibilityDate: '2024-04-03',
+  eslint: {
+    config: {
+      standalone: false,
+      nuxt: {
+        sortConfigKeys: true,
+      },
     },
   },
 })
