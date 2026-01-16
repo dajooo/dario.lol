@@ -10,16 +10,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/icon": "^2.0.0",
-    "@unocss/nuxt": "^66.4.2",
-    "nuxt": "^4.0.3",
-    "vue": "^3.5.20",
-    "vue-router": "^4.5.1"
+    "@nuxt/eslint": "catalog:",
+    "@nuxt/icon": "catalog:",
+    "@unocss/nuxt": "catalog:",
+    "nuxt": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
-    "@iconify-json/ph": "^1.2.2",
-    "@unocss/eslint-plugin": "^66.4.2",
-    "eslint": "^9.34.0"
+    "@antfu/eslint-config": "catalog:",
+    "@iconify-json/ri": "catalog:",
+    "@unocss/eslint-plugin": "catalog:",
+    "@unocss/preset-wind4": "catalog:",
+    "eslint": "catalog:",
+    "unocss": "catalog:"
   }
 }
