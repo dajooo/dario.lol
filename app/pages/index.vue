@@ -93,12 +93,8 @@ async function copyDiscordHandle() {
 
 <template>
   <div class="min-h-screen bg-zinc-950 text-zinc-100 selection:bg-cyan-500/30 selection:text-cyan-200 relative overflow-hidden">
-    <!-- Ambient Background Effects -->
     <div class="fixed top-0 left-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-[128px] pointer-events-none -translate-y-1/2 opacity-50"></div>
     <div class="fixed bottom-0 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-[128px] pointer-events-none translate-y-1/2 opacity-50"></div>
-
-
-
     <nav class="fixed top-0 w-full bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/50 z-50">
       <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" class="text-xl font-bold tracking-tight text-zinc-100 hover:text-white transition-colors">
