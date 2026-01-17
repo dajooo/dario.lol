@@ -35,13 +35,6 @@ const projects: Project[] = [
     wip: true
   },
   {
-    title: 'Servling',
-    description: 'Container deployment platform that simplifies application management with a modern web interface',
-    tech: ['Go', 'Nuxt', 'Docker', 'PostgreSQL'],
-    github: 'https://github.com/servling/servling',
-    wip: true
-  },
-  {
     title: 'HTTRPC',
     description: 'Language-agnostic RPC library with code generation for seamless cross-language communication',
     tech: ['Go', 'HTTP', 'Code Generation'],
